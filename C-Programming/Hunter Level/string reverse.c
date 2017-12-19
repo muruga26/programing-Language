@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(void) {
-	    char str1[20];
+	    char str1[20],*ptr;
 
     int size;
 
@@ -10,12 +10,12 @@ int main(void) {
 
     printf("Enter a string to reverse: ");
 
-    scanf("%s", str1);
+    scanf("%s",&ptr);
 
-    size = strlen(str1);
+    size = strlen(ptr);
     for(int i=size;i>=0;i--)
     {
-    	printf("%c",str1[i]);
+    	printf("%c",*ptr[i]);
     }
     
 	return 0;
