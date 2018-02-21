@@ -10,7 +10,7 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		str=s.nextLine();
 		
-    String a[]=str.split(". ");
+    String a[]=str.split(".");
 		
 	  System.out.println(a.length);
 	}
