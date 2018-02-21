@@ -13,7 +13,6 @@ class Ideone
 		str=s.nextLine();
 		len=str.length();
 		String a[]=str.split(" ");
-		
 		System.out.println(len-(a.length-1));
 		
 	}
