@@ -8,4 +8,9 @@ int main(void) {
     i = i ^ k;
     printf("\nvalue of i=%d k=%d after swapping", i, k);
     return 0;
+ 
+ 
+ 
+ 
+ 
 }
