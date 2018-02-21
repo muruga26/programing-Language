@@ -1,7 +1,5 @@
 #include <stdio.h>
-
-int main(void) {
-
+int main(void){
 	int c,a,b;
 	scanf("%d",&a);
 	scanf("%d",&b);
