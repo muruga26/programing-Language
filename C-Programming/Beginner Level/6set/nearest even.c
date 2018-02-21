@@ -6,6 +6,6 @@ int main(void) {
 	if(a%2==0)
 	printf("%d",a);
 	else
-	a--;
+	a--; 
 	printf("%d",a);
 }
