@@ -1,38 +1,20 @@
+#include <stdio.h>
 
-import java.util.*;
-import java.lang.*;
-import java.util.ArrayList;
-public class op{
-
-     public static void main(String aa[]){
-     int a;
-     int b;
-     
-     int y;
-     char c;
-     Scanner s=new Scanner(System.in);
-     a=s.nextInt();
-     c=s.next().charAt(0);
-       b=s.nextInt();
-   switch(c){
-       case '+':
-            y=a+b;
-           System.out.print(y);
-           break;
-           case '-':
-            y=a-b;
-           System.out.print(y);
-           break;
-           case '/':
-            y=a/b;
-            
-           System.out.print(y);
-           break;
-           case '%':
-           y=a%b;
-           System.out.print(y);
-           break;
-           
-   }
-}
+int main(void) 
+{
+	int kabali,opponent,i;
+	
+	for(i=1;i<=3;i++)
+	{
+	scanf("%d %d\n",&kabali,&opponent);
+	if(kabali>opponent)
+	{
+		printf("\n%d",kabali-opponent);
+	}
+	else
+	{
+		printf("\n%d",opponent-kabali);
+	}
+	}
+	return 0;
 }
