@@ -13,7 +13,7 @@ public class surfv {
     c=s.nextInt();
     suf=2*(a*b)+(b*c)+(c*a);
     vol=a*b*c;
-    System.out.println(suf);
+    
     
      System.out.println(vol);
      
